@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Update(/home/kali/zeusai/zeusai/*)",
+      "Bash(cd /home/kali/zeusai*)",
+      "Bash(which python3*)",
+      "Bash(apt-get update*)",
+      "Bash(which dnf*)",
+      "Bash(pacman -S*)",
+      "Bash(ls -la*)",
+      "Bash(/home/kali/zeusai/.venv/bin/python -m*)",
+      "Bash(/home/kali/zeusai/.venv/bin/python -c*)",
+      "Bash(pip3 install*)",
+      "Bash(python3 -m*)"
+    ]
+  }
+}
